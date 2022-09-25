@@ -1,0 +1,159 @@
+:root {
+  --back_color: #354895;
+  --text_color: #61056c;
+}
+
+
+.Navber_div{
+  width: 90%;
+  background: white;  
+  font-size: 16px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row; 
+}
+
+
+.nav_menu{
+  padding: 10px 20px 25px 25px;
+  color: #454c7e; 
+  margin-top: 20px;  
+}
+
+.nav_menu:hover{  
+  border-radius: 10px;
+  cursor: pointer;
+  background: var(--back_color);
+  color: white;  
+  height: 5px;  
+}
+
+.profile_btn{
+  padding: 10px 20px 25px 25px;  
+  margin-top: 20px;    
+  color: 'black';
+  cursor: pointer;
+  background: #354895;
+  color: white;
+  height: 8px;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+
+.profile_btn:hover{
+  cursor: pointer;
+  background: #61056c;
+}
+
+
+
+
+
+.courasal_div{
+  font-weight: bold;
+  height: 450px;
+  width: 100%;
+  background: var(--back_color);  
+}
+
+.coura_div{   
+  width: 90%;  
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px; 
+}
+
+
+.courasal_left{
+  width: 100%;
+  color: white;
+}
+
+.courasal_left img{  
+  margin-left: 200px;
+  width: 280px;
+  height: 450px;
+}
+
+.courasal_right{
+  width: 100%;
+  color: white;
+  padding-top: 45px;
+}
+
+
+.sobai_jitba{
+    font-family: Hind Siliguri;    
+    font-size: 45px;
+    padding-top: 5px;
+    color: #fff;   
+}
+
+.sobai_jitba_b{
+    font-family: Hind Siliguri;    
+    font-size: 20px;
+    padding-top: 20px;
+    color: #fff;   
+}
+
+.courasal_right button{
+  width: 35%;
+  height: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  margin-right: 30px; 
+  background: #61056c;
+  font-size: 16px;  
+  color: white;
+  border: 3px solid #61056c;
+  border-radius: 10px;
+}
+
+.courasal_right button:hover{
+  background: white;
+  color: #13278b;
+}
+
+
+.vedio_tag{
+  width: 500px;
+  height: 300px;  
+  border-radius: 20px;
+}
+
+.mentor_one{
+  font-family: Hind Siliguri;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 150%;
+  color: var(--back_color);
+  padding-right: 60px;
+  padding-bottom: 10px;
+}
+
+.mentor_two{
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 150%;
+  color: var(--back_color);
+  padding-right: 60px;
+  padding-bottom: 10px;
+}
+
+.mentor button{
+  width: 35%;
+  height: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  margin-right: 30px; 
+  background: #61056c;
+  font-size: 16px;  
+  color: white;
+  border: 3px solid #61056c;
+  border-radius: 10px;
+}
+
+ 
+ 
