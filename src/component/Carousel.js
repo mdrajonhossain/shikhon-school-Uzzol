@@ -19,7 +19,7 @@ const Carousel = () => {
 					<div className="sobai_jitba">এবার সবাই শিখবো, <br /> সবাই জিতবো!</div>
 					<div className="sobai_jitba_b">পড়াশোনায় জিতে যাওয়ার সবকিছু এখন তোমার হাতের মুঠোয়</div>
 					<button type="button">কোর্স ঘুরে দেখ</button>
-					<button type="button">শিখতে শুরু কর</button>
+					<button type="button">সাধারণ জ্ঞান শিখ</button>
 				</div>
 			</div>
 
