@@ -17,12 +17,13 @@ const Fooder = () => {
 			<div className="container">
 				<div className="row">
 					<div className="col-md-4">
-						<div className="phone">01837460931</div>
-						<div className="phone">support@shikonschool.com</div>
-						<div className="phone">www.shikonschool.com</div>
+						<img className="logo" src={require("./logo.png")} alt="logo avater" />
+						<div className="phone"> <b>আমাদের মোবাইল অ্যাপ ডাউনলোড করুন</b> </div>
+						<img className="playstore" src={require("./playstore.png")} alt="logo avater" />
 					</div>
 
 					<div className="col-md-4">
+						<div className="phone"><b>আমাদের সেবাসমূহ:</b></div>
 						<div className="phone">কোর্স</div>
 						<div className="phone">লানিং</div>
 						<div className="phone">বুক স্টোর</div>
@@ -32,7 +33,7 @@ const Fooder = () => {
 
 
 					<div className="col-md-4">
-						<div className="phone">আমাদের সাথে যোগাযোগ করুন</div>
+						<div className="phone"><b>আমাদের সাথে যোগাযোগ করুন:</b></div>
 						<div className="phone">Call: 01837460931 (8AM - 11PM)</div>
 						<div className="phone">Email: support@shikonschool.com</div>
 						<div className="phone">Website: www.shikonschool.com</div>
