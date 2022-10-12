@@ -50,7 +50,7 @@ const Quizcomponent = () => {
 									</div><br/>
 										
 										<div className='submit_btn'>
-											<button type="submit" className="btn_submit">এগিয়ে যাও</button>
+											<button type="submit" className="btn_submit">এগিয়ে      যাও</button>
 										</div>
 
 								</div>
