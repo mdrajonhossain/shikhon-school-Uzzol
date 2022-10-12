@@ -345,3 +345,73 @@ body {
   font-weight: bold;
   color: #354895;
 }
+
+.quese_main{
+  background-color: white;  
+  border-radius: 20px;  
+  margin-bottom: 20px;
+  font-size: 15px;  
+  font-family: Hind Siliguri;  
+}
+
+.quese_main .form_header{
+  margin-top: 25px;
+  font-size: 20px;  
+  text-align: center;  
+  color: #343b6d;     
+  /* padding: 30px; */
+  padding: 30px 0px 10px 0px;
+}
+
+.quese_main .quese_forms{
+  padding: 20px;
+  width: 90%;
+  margin-left: 20px;
+}
+.form_lavel{
+  padding: 0px 0px 15px 0px;
+}
+
+.quese_main input::placeholder {
+    font: 15px/3 sans-serif;
+}
+.form-control {
+  height: 40px;  
+  padding: 0px 40px 0px 15px !important;
+  font-size: 18px !important;
+}
+
+.form-group{
+  position: relative;
+}
+.close_btn{
+  position: absolute;
+  right: 15px;
+  top: 40px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+
+.star_red{
+  color: red;   
+}
+.submit_btn{
+  width: 100%;
+  
+}
+.btn_submit{
+  margin-left: 120px;    
+  background-color: #04AA6D;
+  width: calc(100% - 210px);
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: 550;
+}
+.btn_submit:hover{
+  background-color: #36d375;
+}
